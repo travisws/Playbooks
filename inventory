@@ -1,5 +1,8 @@
 [ubuntu]
-192.168.0.7:8080 
+ubuntu1 ansible_host=192.168.0.7:8080 
 
 [rocky]
-192.168.0.8
+rock1 ansible_host=192.168.0.8:22
+
+[macs]
+mac1 ansible_host=192.168.0.3:22 ansible_user=deathpoolops
